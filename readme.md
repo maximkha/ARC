@@ -21,4 +21,4 @@ Then I wrote a quick Python script that uses Natplotlib to graph it.
 
 ![RankVsTrainAcc](RankVsTestAcc.png)
 
-The results were completely unexpected. The orange line is if the testing accuracy was an 100% reliable indication of the rank/real accuracy your model would get. The blue line is the testing accuracy vs real rank. This seems to imply that testing accuracy is not an accurate estimation of how well your model generalizes.
+The results are unexpected. The orange line is if the testing accuracy was an 100% reliable indication of the rank/real accuracy your model would get. The blue line is the testing accuracy vs real rank. This seems to imply that testing accuracy is not an accurate estimation of how well the models generalize.
